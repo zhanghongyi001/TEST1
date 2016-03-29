@@ -1,0 +1,40 @@
+.top {
+  width: 100%;
+  height: 2.75rem;
+  background: #3076e8;
+  text-align: center;
+  line-height: 2.75rem;
+  color: #ffffff;
+  font-size: 1.125rem; }
+
+.header {
+  width: 100%;
+  height: 7.375rem;
+  text-align: center;
+  color: #b6b6b6;
+  font-size: 0.75rem;
+  border-bottom: 0.0625rem solid #eeeeee; }
+  .header .head {
+    box-sizing: border-box;
+    width: 4.15625rem;
+    height: 4.15625rem;
+    margin: 0.9375rem auto;
+    background: url("../img/me.png") no-repeat center;
+    background-size: 4.15625rem 4.15625rem; }
+  .header p > span {
+    margin-left: 0.6875rem; }
+
+section {
+  box-sizing: border-box; }
+  section .incl {
+    padding-left: 0.53125rem; }
+  section .inf1 {
+    width: 100%;
+    border-bottom: 0.0625rem solid #eeeeee;
+    padding-left: 0.625rem; }
+  section .inf1 input {
+    height: 2.125rem;
+    padding-left: 2.0625rem;
+    border: none; }
+
+/*# sourceMappingURL=changeInformation.css.map */

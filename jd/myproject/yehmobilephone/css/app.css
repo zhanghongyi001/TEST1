@@ -1,0 +1,4 @@
+/*引入css默认文件*/
+@import "../../common/css/reset.css";
+/*首页css文件*/
+@import "index.css";

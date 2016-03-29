@@ -1,0 +1,48 @@
+@function _($fontSize){
+  @return $fontSize / 32 + rem;
+};
+.top{
+  width: 100%;
+  height: _(88);
+  background: #3076e8;
+  text-align: center;
+  line-height: _(88);
+  color: #ffffff;
+  font-size: _(36);
+}
+.header{
+  width: 100%;
+  height: _(236);
+  text-align: center;
+  color: #b6b6b6;
+  font-size: _(24);
+  border-bottom: _(2) solid #eeeeee;
+  .head{
+    box-sizing:border-box;
+    width: _(133);
+    height: _(133);
+    margin:_(30)  auto ;
+    background: url("../img/me.png") no-repeat center;
+    background-size: _(133) _(133);
+  }
+  p>span{
+    margin-left: _(22);
+  }
+}
+section{
+  box-sizing: border-box;
+  .incl{
+    padding-left: _(17);
+  }
+  .inf1{
+    width: 100%;
+    border-bottom: _(2) solid #eeeeee;
+    padding-left: _(20);
+  }
+
+  .inf1 input{
+    height: _(68);
+    padding-left: _(66);
+    border: none;
+  }
+}

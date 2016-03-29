@@ -1,0 +1,86 @@
+@function _($fontSize){
+  @return $fontSize / 32 + rem;
+};
+body{background: #eee;}
+.top{
+  width: 100%;
+  height: _(88);
+  font-size: _(36);
+  text-align: center;
+  line-height: _(88);
+  color: #ffffff;
+  background:#3076e8 ;
+  span.ip{
+    margin-left: _(10);
+    font-size: _(36);
+  }
+}
+div.cont .list li{
+  box-sizing: border-box;
+  margin-top: _(18);
+  padding: _(40) 0 0 _(15);
+    width: 100%;
+    height: _(192);
+  overflow: hidden;
+  background:#ffffff url("../img/zp_ling3da.png")no-repeat _(612) _(80) ;
+  -webkit-background-size: _(15) _(28) ;
+  background-size: _(15) _(28) ;
+
+}
+.head1 {
+  position: relative;
+  float: left;
+  width: _(75);
+  padding-right: _(16);
+  text-align: center;
+  border-right: _(2) solid #e8e8e8;
+  img {
+    width: _(70);
+    height:_(70);
+}
+  img.im2{
+    width: _(22);
+    height: _(22);
+    position: absolute;
+    top:_(49);
+    left:_(46);
+  }
+  p{
+    margin-top: _(10);
+    font-size: _(18);
+    color: #666;
+  }
+}
+.head2{
+float: left;
+  height: _(100);
+  margin-left: _(19);
+  text-align: center;
+  color: #333;
+  p.ti{
+    font-weight: normal;
+    font-size: _(26);
+    margin-top: _(15);
+    color: #333;
+  }
+  p{
+    margin-top: _(30);
+  }
+  p img{
+    width: _(54);
+    height: _(25);
+  }
+  p img.img1{
+    margin-right: _(12);
+  }
+}
+.list .cont{
+  color: #333;
+  margin-top: _(10);
+  margin-left: _(15);
+  float: left;
+  font-size: _(18);
+  width: _(340);
+  line-height: _(32);
+}
+

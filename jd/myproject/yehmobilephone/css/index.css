@@ -1,0 +1,484 @@
+body {
+  background-color: #eeeeee; }
+
+.zp_title {
+  width: 100%;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  background-color: #3076e9; }
+  .zp_title p {
+    font-size: 1.125rem;
+    text-align: center;
+    color: #ffffff; }
+
+.swiper-container {
+  width: 100%;
+  height: 10.625rem; }
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+  .swiper-slide img {
+    width: 100%;
+    height: 100%; }
+
+.swiper-pagination {
+  bottom: 0.625rem; }
+
+.zp_gongg {
+  width: 100%;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  background-color: #ffffff;
+  padding: 0 0.65625rem;
+  box-sizing: border-box;
+  overflow: hidden; }
+  .zp_gongg .zp_goema {
+    width: 0.8125rem;
+    height: 0.875rem;
+    display: block;
+    float: left;
+    margin-top: 0.5rem; }
+    .zp_gongg .zp_goema img {
+      width: 100%;
+      float: left; }
+  .zp_gongg .zp_xitog {
+    font-size: 0.9375rem;
+    color: #333333;
+    margin-left: 0.34375rem;
+    float: left; }
+  .zp_gongg #marqueebox {
+    width: 10.625rem;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-text-overflow: ellipsis;
+    margin: 0 0.75rem; }
+    .zp_gongg #marqueebox .up_li {
+      text-align: center; }
+    .zp_gongg #marqueebox .up_li a {
+      font-size: 0.75rem;
+      color: #3076e9;
+      height: 1.875rem;
+      display: block;
+      text-align: center; }
+  .zp_gongg .zp_goemb {
+    width: 1.125rem;
+    height: 0.25rem;
+    float: right;
+    margin-top: 0.8125rem;
+    display: block; }
+    .zp_gongg .zp_goemb img {
+      width: 100%;
+      float: left; }
+
+.zp_project {
+  width: 100%;
+  background: #ffffff;
+  margin-top: 0.625rem;
+  overflow: hidden;
+  padding-bottom: 0.46875rem; }
+  .zp_project .zp_ptop {
+    padding: 0 0.625rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    border-bottom: 0.03125rem solid #e8e8e8; }
+    .zp_project .zp_ptop .zp_pema {
+      width: 0.875rem;
+      height: 0.90625rem;
+      float: left;
+      margin-top: 0.5rem; }
+      .zp_project .zp_ptop .zp_pema img {
+        width: 100%;
+        float: left; }
+    .zp_project .zp_ptop .zp_ppa {
+      font-size: 0.9375rem;
+      color: #333333;
+      float: left;
+      margin-left: 0.3125rem; }
+    .zp_project .zp_ptop .zp_qub {
+      display: block;
+      float: right;
+      font-size: 0.75rem;
+      color: #999999; }
+      .zp_project .zp_ptop .zp_qub .zp_pemb {
+        width: 0.3125rem;
+        height: 0.625rem;
+        float: right;
+        margin-top: 0.625rem; }
+        .zp_project .zp_ptop .zp_qub .zp_pemb img {
+          width: 100%;
+          margin-left: 0.375rem;
+          float: left; }
+  .zp_project .zp_ula {
+    padding: 0.15625rem 0.625rem 0rem;
+    box-sizing: border-box; }
+    .zp_project .zp_ula li {
+      padding-top: 0.3125rem; }
+    .zp_project .zp_ula li.zp_ulla {
+      width: 66%;
+      height: 10.9375rem;
+      position: relative; }
+      .zp_project .zp_ula li.zp_ulla img {
+        width: 100%;
+        height: 100%; }
+      .zp_project .zp_ula li.zp_ulla .zp_pupu {
+        width: 100%;
+        height: 1.25rem;
+        line-height: 1.25rem;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        padding: 0 0.375rem;
+        box-sizing: border-box; }
+        .zp_project .zp_ula li.zp_ulla .zp_pupu .zp_pupua {
+          font-size: 0.9375rem;
+          color: #ffffff; }
+        .zp_project .zp_ula li.zp_ulla .zp_pupu .zp_pupub {
+          font-size: 0.5625rem;
+          color: #ffffff; }
+    .zp_project .zp_ula li.zp_ullb {
+      width: 32%;
+      height: 10.9375rem;
+      position: relative; }
+      .zp_project .zp_ula li.zp_ullb img {
+        width: 100%;
+        height: 100%; }
+      .zp_project .zp_ula li.zp_ullb .zp_pupu {
+        width: 100%;
+        height: 1.25rem;
+        line-height: 1.25rem;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        padding: 0 0.375rem;
+        box-sizing: border-box; }
+        .zp_project .zp_ula li.zp_ullb .zp_pupu .zp_pupua {
+          font-size: 0.9375rem;
+          color: #ffffff; }
+        .zp_project .zp_ula li.zp_ullb .zp_pupu .zp_pupub {
+          font-size: 0.5625rem;
+          color: #ffffff; }
+    .zp_project .zp_ula li.zp_ullc {
+      width: 32%;
+      height: 10.9375rem;
+      position: relative; }
+      .zp_project .zp_ula li.zp_ullc img {
+        width: 100%;
+        height: 100%; }
+      .zp_project .zp_ula li.zp_ullc .zp_pupu {
+        width: 100%;
+        height: 1.25rem;
+        line-height: 1.25rem;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        padding: 0 0.375rem;
+        box-sizing: border-box; }
+        .zp_project .zp_ula li.zp_ullc .zp_pupu .zp_pupua {
+          font-size: 0.9375rem;
+          color: #ffffff; }
+        .zp_project .zp_ula li.zp_ullc .zp_pupu .zp_pupub {
+          font-size: 0.5625rem;
+          color: #ffffff; }
+    .zp_project .zp_ula li.zp_ulld {
+      width: 32%;
+      height: 10.9375rem;
+      position: relative;
+      margin-left: 2%; }
+      .zp_project .zp_ula li.zp_ulld img {
+        width: 100%;
+        height: 100%; }
+      .zp_project .zp_ula li.zp_ulld .zp_pupu {
+        width: 100%;
+        height: 1.25rem;
+        line-height: 1.25rem;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        padding: 0 0.375rem;
+        box-sizing: border-box; }
+        .zp_project .zp_ula li.zp_ulld .zp_pupu .zp_pupua {
+          font-size: 0.9375rem;
+          color: #ffffff; }
+        .zp_project .zp_ula li.zp_ulld .zp_pupu .zp_pupub {
+          font-size: 0.5625rem;
+          color: #ffffff; }
+    .zp_project .zp_ula li.zp_ulle {
+      width: 32%;
+      height: 10.9375rem;
+      position: relative; }
+      .zp_project .zp_ula li.zp_ulle img {
+        width: 100%;
+        height: 100%; }
+      .zp_project .zp_ula li.zp_ulle .zp_pupu {
+        width: 100%;
+        height: 1.25rem;
+        line-height: 1.25rem;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        padding: 0 0.375rem;
+        box-sizing: border-box; }
+        .zp_project .zp_ula li.zp_ulle .zp_pupu .zp_pupua {
+          font-size: 0.9375rem;
+          color: #ffffff; }
+        .zp_project .zp_ula li.zp_ulle .zp_pupu .zp_pupub {
+          font-size: 0.5625rem;
+          color: #ffffff; }
+
+.zp_zuhip {
+  width: 100%;
+  margin-top: 0.625rem;
+  background-color: #ffffff;
+  overflow: hidden; }
+  .zp_zuhip .zp_zhtop {
+    width: 100%;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    border-bottom: 0.03125rem solid #e8e8e8;
+    padding: 0 0.625rem;
+    box-sizing: border-box; }
+    .zp_zuhip .zp_zhtop .zp_pema {
+      width: 0.875rem;
+      height: 0.875rem;
+      display: block;
+      margin-top: 0.5rem;
+      margin-right: 0.3125rem; }
+      .zp_zuhip .zp_zhtop .zp_pema img {
+        width: 100%;
+        float: left; }
+    .zp_zuhip .zp_zhtop .zp_ppa {
+      font-size: 0.9375rem;
+      color: #333333; }
+    .zp_zuhip .zp_zhtop .zp_qub {
+      display: block;
+      float: right;
+      font-size: 0.75rem;
+      color: #999999; }
+      .zp_zuhip .zp_zhtop .zp_qub .zp_pemb {
+        width: 0.3125rem;
+        height: 0.625rem;
+        float: right;
+        margin-top: 0.625rem; }
+        .zp_zuhip .zp_zhtop .zp_qub .zp_pemb img {
+          width: 100%;
+          margin-left: 0.375rem;
+          float: left; }
+  .zp_zuhip .zp_zuhul {
+    width: 100%;
+    padding: 0 0.625rem;
+    box-sizing: border-box;
+    overflow: hidden; }
+    .zp_zuhip .zp_zuhul li {
+      padding: 0.71875rem 0;
+      overflow: hidden;
+      border-bottom: 0.03125rem solid #e8e8e8; }
+      .zp_zuhip .zp_zuhul li a {
+        display: block; }
+        .zp_zuhip .zp_zuhul li a .zp_zuda {
+          width: 17.8125rem;
+          height: 6.90625rem;
+          overflow: hidden; }
+          .zp_zuhip .zp_zuhul li a .zp_zuda .zp_datop {
+            width: 100%;
+            height: 3.125rem;
+            overflow: hidden; }
+            .zp_zuhip .zp_zuhul li a .zp_zuda .zp_datop .zp_daimg {
+              width: 2.8125rem;
+              height: 3.125rem;
+              border-right: 0.03125rem solid #e8e8e8;
+              padding-right: 0.3125rem; }
+              .zp_zuhip .zp_zuhul li a .zp_zuda .zp_datop .zp_daimg .daimgs {
+                width: 2.1875rem;
+                height: 2.1875rem;
+                border-radius: 50%;
+                margin-left: 0.3125rem; }
+              .zp_zuhip .zp_zuhul li a .zp_zuda .zp_datop .zp_daimg .zp_names {
+                font-size: 0.6875rem;
+                color: #666666;
+                text-align: center;
+                line-height: 1.0625rem; }
+            .zp_zuhip .zp_zuhul li a .zp_zuda .zp_datop .zp_dbimg {
+              padding-left: 0.78125rem; }
+              .zp_zuhip .zp_zuhul li a .zp_zuda .zp_datop .zp_dbimg p {
+                font-size: 0.9375rem;
+                color: #333333; }
+              .zp_zuhip .zp_zuhul li a .zp_zuda .zp_datop .zp_dbimg .zp_daemb {
+                width: 1.625rem;
+                height: 0.8125rem;
+                display: block;
+                float: left;
+                margin: 0.625rem 0.3125rem 0 0; }
+                .zp_zuhip .zp_zuhul li a .zp_zuda .zp_datop .zp_dbimg .zp_daemb img {
+                  width: 100%; }
+          .zp_zuhip .zp_zuhul li a .zp_zuda .zp_zumain {
+            font-size: 0.6875rem;
+            color: #333333;
+            text-indent: 0.3125rem;
+            line-height: 1.125rem;
+            padding-top: 0.3125rem; }
+        .zp_zuhip .zp_zuhul li a .zp_zuema {
+          width: 0.4375rem;
+          height: 0.90625rem; }
+          .zp_zuhip .zp_zuhul li a .zp_zuema img {
+            width: 100%;
+            margin-top: 3.625rem; }
+    .zp_zuhip .zp_zuhul li:last-child {
+      border-bottom: 0; }
+
+.zp_touzi {
+  width: 100%;
+  margin-top: 0.625rem;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding-bottom: 3rem; }
+  .zp_touzi .zp_zhtop {
+    width: 100%;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    border-bottom: 0.03125rem solid #e8e8e8;
+    padding: 0 0.625rem;
+    box-sizing: border-box; }
+    .zp_touzi .zp_zhtop .zp_pema {
+      width: 0.875rem;
+      height: 0.875rem;
+      display: block;
+      margin-top: 0.5rem;
+      margin-right: 0.3125rem; }
+      .zp_touzi .zp_zhtop .zp_pema img {
+        width: 100%;
+        float: left; }
+    .zp_touzi .zp_zhtop .zp_ppa {
+      font-size: 0.9375rem;
+      color: #333333; }
+    .zp_touzi .zp_zhtop .zp_qub {
+      display: block;
+      float: right;
+      font-size: 0.75rem;
+      color: #999999; }
+      .zp_touzi .zp_zhtop .zp_qub .zp_pemb {
+        width: 0.3125rem;
+        height: 0.625rem;
+        float: right;
+        margin-top: 0.625rem; }
+        .zp_touzi .zp_zhtop .zp_qub .zp_pemb img {
+          width: 100%;
+          margin-left: 0.375rem;
+          float: left; }
+  .zp_touzi .zp_tzul {
+    padding: 0 0.625rem;
+    box-sizing: border-box;
+    overflow: hidden; }
+    .zp_touzi .zp_tzul li {
+      float: left;
+      width: 24%;
+      padding: 1rem 0.1875rem 0.3125rem 0;
+      overflow: hidden;
+      position: relative; }
+      .zp_touzi .zp_tzul li a {
+        width: 96%;
+        display: block;
+        padding-bottom: 0.375rem;
+        overflow: hidden; }
+        .zp_touzi .zp_tzul li a img {
+          width: 92%; }
+        .zp_touzi .zp_tzul li a p.zp_pjgpa {
+          font-size: 0.75rem;
+          color: #666666;
+          text-align: center;
+          line-height: 1.5625rem; }
+      .zp_touzi .zp_tzul li .zp_xian {
+        width: 0.03125rem;
+        height: 2.75rem;
+        background-color: #e8e8e8;
+        margin-top: 0.34375rem; }
+      .zp_touzi .zp_tzul li .zp_xiana {
+        width: 2.75rem;
+        height: 0.03125rem;
+        background-color: #e8e8e8;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -1.75rem; }
+    .zp_touzi .zp_tzul .zp_tzula {
+      margin: 0; }
+
+.zp_footer {
+  width: 100%;
+  height: 3.03125rem;
+  background-color: #ffffff;
+  border-top: 0.03125rem solid #b0b0b0;
+  position: fixed;
+  bottom: 0; }
+  .zp_footer .zp_fooul {
+    width: 100%;
+    overflow: hidden; }
+    .zp_footer .zp_fooul li {
+      width: 33.333%;
+      float: left;
+      height: 3.03125rem;
+      position: relative; }
+      .zp_footer .zp_fooul li a {
+        display: block;
+        height: 3.03125rem;
+        overflow: hidden; }
+    .zp_footer .zp_fooul li:nth-child(1) em {
+      width: 1.25rem;
+      height: 1.25rem;
+      display: block;
+      margin-left: 40%;
+      margin-top: 0.5rem; }
+      .zp_footer .zp_fooul li:nth-child(1) em img {
+        width: 100%;
+        float: left; }
+    .zp_footer .zp_fooul li:nth-child(1) p {
+      font-size: 0.6875rem;
+      color: #3076e9;
+      text-align: center;
+      line-height: 1.25rem; }
+    .zp_footer .zp_fooul li:nth-child(2) em {
+      width: 1.25rem;
+      height: 1.25rem;
+      display: block;
+      margin-left: 40%;
+      margin-top: 0.5rem; }
+      .zp_footer .zp_fooul li:nth-child(2) em img {
+        width: 100%;
+        float: left; }
+    .zp_footer .zp_fooul li:nth-child(2) p {
+      font-size: 0.6875rem;
+      color: #666666;
+      text-align: center;
+      line-height: 1.25rem; }
+    .zp_footer .zp_fooul li:nth-child(3) em {
+      width: 1.25rem;
+      height: 1.25rem;
+      display: block;
+      margin-left: 40%;
+      margin-top: 0.5rem; }
+      .zp_footer .zp_fooul li:nth-child(3) em img {
+        width: 100%;
+        float: left; }
+    .zp_footer .zp_fooul li:nth-child(3) p {
+      font-size: 0.6875rem;
+      color: #666666;
+      text-align: center;
+      line-height: 1.25rem; }
+
+/*# sourceMappingURL=index.css.map */

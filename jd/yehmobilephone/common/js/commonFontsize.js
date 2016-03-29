@@ -1,0 +1,1 @@
+window.onload=function(){document.documentElement.style.fontSize=document.documentElement.clientWidth*0.05+'px'};

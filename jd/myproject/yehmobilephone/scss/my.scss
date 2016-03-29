@@ -1,0 +1,236 @@
+/*
+* @description: myhomepage
+* @author:ZYZ_Kerry
+* @update: name (2016-02-24 17:12)
+*/
+@import "../../common/css/reset.css";
+@function _($logic-size) {
+	@return $logic-size / 32 + rem;
+}
+
+*{font-family: "Microsoft YaHei";}
+body{
+	background: #eeeeee;
+}
+/* this is top */
+.top{
+	width: 100%;
+ 	height: _(506);
+ 	position: relative;
+ 	.toppng{ width: 100%; height: 100%; position: absolute; left: 0;top: 0;z-index: 1;}
+	.top_con{ 
+		width: 100%; height: 100%; position: absolute;left: 0; top: 0; z-index: 5;
+		.toptop{ 
+			width: 94.8%; height: _(427);  margin: 0 auto;
+			.wdxx{ 
+				width: 100%; height: _(48);
+				i{
+					list-style: none;
+					 font-style: normal;
+					  width:_(20); 
+					  height: _(20);
+					  display: block;
+					   position: absolute;
+					    top: 0;
+					     opacity: 1;
+					      background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATBAMAAABiojCGAAAAKlBMVEUAAADrLi7rLi7rLi7rLi7rLi7rLi7rLi7rLi7rLi7rLi7rLi7rLi7rLi47OuaNAAAADXRSTlMA9XgL7bGqZ8IX4dlegHrG5QAAAF1JREFUCNdjYGBgPrZROtyAAQRK7gKBO4hldhcMkoHMWAjzKgMD010oUGCYCGNKMujCmJcYemHMGwxrYcwrDLJ3YYDBFyGKUItsAsJcZNsQbkC4DNm9YF+slQL5AgAemXrUblSdAgAAAABJRU5ErkJggg==") no-repeat;
+					       background-size: 100% 100%;
+					        z-index: 10;
+				}
+				i.i1{
+					right: _(10);
+				}
+				i.i2{
+					left: _(44);
+				}
+				.xxicon{
+					float: left;
+					width: _(44); height: _(46);
+					position: relative;
+					img{ width: 100%; height: 100%; display: block; position: absolute; left: 0; top: 0;z-index: 6;}
+					i{
+						list-style: none;
+						 font-style: normal; 
+						 width:_(20); 
+						 height: _(20); 
+						 display: block; position: absolute;right: 0; top: 0; opacity: 1; background:url(../img/ydd2.png) no-repeat;
+					}
+				}
+				.fl{ float: left;}
+				.fr{ float: right;}
+			}
+			.toux{ width: _(135);
+				height: _(135);
+				border-radius: _(75);
+				border:solid _(1) #fff;
+				display: block;
+				margin: 0 auto;
+				margin-top: _(20);
+			}
+			.name{ text-align: center; font-size: _(28); line-height: _(34); color: #fff; margin-top: _(13);}
+			.name2{ font-size: _(22); text-align:center;color: #fff; line-height: _(27);}
+			.touzr{
+				width: 60%;height: _(24); margin: 0 auto; margin-top: _(32); margin-bottom: _(17);
+				i{ width: 33%; height: _(1); margin-top: _(12); display: block; float: left; line-height: _(26); background: #fff; display: inline-block;}
+				span{ width: 33%; height: _(24); line-height: _(24);  font-size: _(24); display: block; float: left; text-align: center; color: #fff;}
+			}
+			.dy{
+				 font-size: _(18); height: _(24); color:#fff; line-height: _(18); text-align: center; margin-bottom: _(5);
+			}
+			.smrz{ 
+				margin:0 auto;width:_(142);  height: _(22); line-height: _(22); vertical-align: middle; color:#fff; font-size:_(18); margin-bottom: _(26);
+				span{ height: _(22); width: _(120); display: block; float: left; line-height: _(22);vertical-align: middle; color:#fff; font-size:_(16);}
+				label{ 
+					width: _(22); height: _(22); display: block; float: left;
+					img{ width:_(22);; height:_(22); display: block;}
+				}
+				
+			}
+		}
+		.topbotm{ 
+			width: 100%; height: _(69); background: rgba(0,0,0,.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000); 
+			a{ 
+				width: 49%; height: 100%; line-height: _(69); font-size: _(30); color: #fff; text-align: center; float: left; display: block;
+				
+			}
+			a.fir{ 
+					 box-sizing:border-box; 
+					border-right: solid 1px #fff;
+				}
+		}
+	}
+}
+/* this is top end! */
+/* this is bottom! */
+.bottom{
+	width: 100%;
+  margin-bottom: _(100);
+	li{ 
+		width: 100%; height: _(180); vertical-align: middle; background: #fff;
+		div{
+			width: 94%;height: _(40); line-height: _(40);padding-left: 3%; padding-right: 3%; padding-top: _(25);padding-bottom: _(25); clear: both;
+			label{ 
+				width: _(60); 
+				vertical-align: middle; display: inline-block;margin-right: _(12);
+				img{ width: _(41); display: block;}
+				img.tu1{margin-top: _(7);}
+				img.tu3{width: _(33); margin-top: _(4);}
+				img.tu4{ margin-top: _(7);}
+				img.tu5{ width: _(31); margin-top: _(3);}
+				img.tu6{ width: _(37); margin-top: _(5);}
+				img.tu7{ width: _(32); margin-top: _(5);}
+				img.tu8{ width: _(30); margin-top: _(3);}
+				img.icon9{ width: _(32); margin-top: _(4);}
+			}
+			label.yb{ margin-right: 0;}
+			span{
+				vertical-align: middle; font-size: _(30); color: #333333;
+			}
+			.yb{
+				 width: _(20);
+				 img{ width: _(20); display: block;}
+			}
+			.fl{float: left;}
+			.fr{ float: right;}
+		}
+		div.hui{
+			background: #eeeeee;
+		}
+		div.line{
+			 height: 0;
+			 width: 84%;
+			 border-bottom: solid _(1) #eeeeee;
+			 margin: 0;padding: 0;
+			 margin: 0 auto;
+		}
+		
+	}
+	li.mt10{
+		margin-top: _(10);
+	}
+	li.mt20{
+		margin-top: _(20);
+	}
+	li.bot1{ height: _(90);}
+}
+/* this is bottom end! */
+.zp_footer{
+  width: 100%;
+  height: _(97);
+  background-color: #ffffff;
+  border-top: _(1) solid #b0b0b0;
+  position: fixed;
+  bottom: 0;
+  .zp_fooul{
+    width: 100%;
+    overflow: hidden;
+    li{
+      width: 33.333%;
+      float: left;
+      height: _(97);
+      position: relative;
+      a{
+        display: block;
+        height: _(97);
+        overflow: hidden;
+      }
+    }
+    li:nth-child(1){
+      em{
+        width: _(40);
+        height: _(40);
+        display: block;
+        margin-left: 40%;
+        margin-top: _(16);
+        img{
+          width: 100%;
+          float: left;
+        }
+      }
+      p{
+        font-size: _(22);
+        color: #666666;
+        text-align: center;
+        line-height: _(40);
+      }
+    }
+    li:nth-child(2){
+      em{
+        width: _(40);
+        height: _(40);
+        display: block;
+        margin-left: 40%;
+        margin-top: _(16);
+        img{
+          width: 100%;
+          float: left;
+        }
+      }
+      p{
+        font-size: _(22);
+        color: #666666;
+        text-align: center;
+        line-height: _(40);
+      }
+    }
+    li:nth-child(3){
+      em{
+        width: _(40);
+        height: _(40);
+        display: block;
+        margin-left: 40%;
+        margin-top: _(16);
+        img{
+          width: 100%;
+          float: left;
+        }
+      }
+      p{
+        font-size: _(22);
+        color: #3076e9;
+        text-align: center;
+        line-height: _(40);
+      }
+    }
+  }
+}
